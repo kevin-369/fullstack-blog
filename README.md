@@ -19,15 +19,15 @@ Welcome to my **Fullstack Blog**! This application showcases the power of full-s
 fullstack-blog/ ├── frontend/ # React frontend │ ├── public/ # Static files │ ├── src/ # React components and pages │ │ ├── pages/ # Home, Posts, and CreatePost pages │ │ └── App.js # Main React app │ └── package.json # Frontend dependencies │ ├── backend/ # Express backend │ ├── index.js # Backend server setup │ ├── models/ # Mongoose models (e.g., Post) │ ├── routes/ # API routes for posts │ └── package.json # Backend dependencies │ └── README.md # Project documentation
 
 yaml
-Copy code
+=============e
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Tailwind CSS, React Router, Framer Motion  
-- **Backend**: Node.js, Express, MongoDB, Mongoose  
-- **Version Control**: Git, GitHub  
+- **Frontend**: React, Tailwind CSS, React Router, Framer Motion
+- **Backend**: Node.js, Express, MongoDB, Mongoose
+- **Version Control**: Git, GitHub
 - **Deployment**: GitHub Pages (Frontend), Heroku or Render (Backend)
 
 ---
@@ -43,38 +43,38 @@ cd fullstack-blog
 Navigate to the backend folder:
 
 bash
-Copy code
+=============e
 cd backend
 Install backend dependencies:
 
 bash
-Copy code
+=============e
 npm install
 Create a .env file in the backend folder:
 
 bash
-Copy code
+=============e
 MONGO_URI=mongodb://localhost:27017/fullstack-blog
 Start the backend server:
 
 bash
-Copy code
+=============e
 node index.js
 3. Setup Frontend
 Open a new terminal and navigate to the frontend folder:
 
 bash
-Copy code
+=============e
 cd frontend
 Install frontend dependencies:
 
 bash
-Copy code
+=============e
 npm install
 Start the React frontend:
 
 bash
-Copy code
+=============e
 npm start
 Open http://localhost:3000 in your browser to view the app.
 
@@ -88,17 +88,17 @@ POST /posts: Create a new post
 Frontend on GitHub Pages:
 Build the frontend:
 bash
-Copy code
+=============e
 cd frontend
 npm run build
 Deploy to GitHub Pages:
 bash
-Copy code
+=============e
 npm run deploy
 Backend on Heroku or Render:
 Commit your backend code:
 bash
-Copy code
+=============e
 cd backend
 git add .
 git commit -m "Deploy backend"
@@ -116,3 +116,4 @@ If you have any questions or want to connect:
 Email: kev.okacha@gmail.com
 GitHub: @kevin-369
 LinkedIn: linkedin.com/in/kevin-okacha
+```
