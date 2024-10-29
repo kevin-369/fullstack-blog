@@ -18,8 +18,7 @@ Welcome to my **Fullstack Blog**! This application showcases the power of full-s
 
 fullstack-blog/ ├── frontend/ # React frontend │ ├── public/ # Static files │ ├── src/ # React components and pages │ │ ├── pages/ # Home, Posts, and CreatePost pages │ │ └── App.js # Main React app │ └── package.json # Frontend dependencies │ ├── backend/ # Express backend │ ├── index.js # Backend server setup │ ├── models/ # Mongoose models (e.g., Post) │ ├── routes/ # API routes for posts │ └── package.json # Backend dependencies │ └── README.md # Project documentation
 
-yaml
-=============e
+=============
 
 ---
 
@@ -43,38 +42,38 @@ cd fullstack-blog
 Navigate to the backend folder:
 
 bash
-=============e
+=============
 cd backend
 Install backend dependencies:
 
 bash
-=============e
+=============
 npm install
 Create a .env file in the backend folder:
 
 bash
-=============e
+=============
 MONGO_URI=mongodb://localhost:27017/fullstack-blog
 Start the backend server:
 
 bash
-=============e
+=============
 node index.js
 3. Setup Frontend
 Open a new terminal and navigate to the frontend folder:
 
 bash
-=============e
+=============
 cd frontend
 Install frontend dependencies:
 
 bash
-=============e
+=============
 npm install
 Start the React frontend:
 
 bash
-=============e
+=============
 npm start
 Open http://localhost:3000 in your browser to view the app.
 
@@ -88,17 +87,17 @@ POST /posts: Create a new post
 Frontend on GitHub Pages:
 Build the frontend:
 bash
-=============e
+=============
 cd frontend
 npm run build
 Deploy to GitHub Pages:
 bash
-=============e
+=============
 npm run deploy
 Backend on Heroku or Render:
 Commit your backend code:
 bash
-=============e
+=============
 cd backend
 git add .
 git commit -m "Deploy backend"
@@ -110,10 +109,4 @@ Comment System: Enable users to comment on blog posts.
 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request. For major changes, open an issue to discuss what you'd like to change.
 
-📧 Contact
-If you have any questions or want to connect:
-
-Email: kev.okacha@gmail.com
-GitHub: @kevin-369
-LinkedIn: linkedin.com/in/kevin-okacha
 ```
